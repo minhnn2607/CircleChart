@@ -1,7 +1,7 @@
 # Circle Chart
 Custom Circle Chart with your text, max value and progress value
 
-
+![Screenshot](https://github.com/minhnn2607/CircleChart/blob/master/screenshot.png?raw=true)
 ## Setup
 Add dependency to your __build.gradle__
 
