@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleChart">
+        <attr name="sc_maxValue" format="integer"/>
+        <attr name="sc_progressValue" format="integer"/>
+        <attr name="sc_totalFontSize" format="dimension"/>
+        <attr name="sc_totalFontColor" format="color"/>
+        <attr name="sc_topFontSize" format="dimension"/>
+        <attr name="sc_topFontColor" format="color"/>
+        <attr name="sc_topText" format="string"/>
+        <attr name="sc_targetText" format="string"/>
+        <attr name="sc_targetFontSize" format="dimension"/>
+        <attr name="sc_targetFontColor" format="color"/>
+        <attr name="sc_botFontSize" format="dimension"/>
+        <attr name="sc_botFontColor" format="color"/>
+        <attr name="sc_botText" format="string"/>
+        <attr name="sc_arrowColor" format="color"/>
+        <attr name="sc_dashColor" format="color"/>
+        <attr name="sc_dashProgressColor" format="color"/>
+        <attr name="sc_arrowLength" format="dimension"/>
+        <attr name="sc_arrowWidth" format="dimension"/>
+        <attr name="sc_arrowHeadLength" format="dimension"/>
+        <attr name="sc_startAngle" format="integer"/>
+        <attr name="sc_endAngle" format="integer"/>
+        <attr name="sc_dashLength" format="dimension"/>
+        <attr name="sc_dashWidthAngle" format="integer"/>
+        <attr name="sc_dashSpaceAngle" format="integer"/>
+        <attr name="sc_duration" format="integer"/>
+        <attr name="sc_marginTop" format="dimension"/>
+        <attr name="sc_marginBot" format="dimension"/>
+        <attr name="sc_isPause" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="vn.nms.demo.ExampleActivity">
+
+    <vn.nms.circle_chart.CircleChart
+        android:id="@+id/circleChart"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:sc_arrowColor="@color/colorPrimaryDark"
+        app:sc_arrowHeadLength="3dp"
+        app:sc_arrowLength="12dp"
+        app:sc_arrowWidth="7dp"
+        app:sc_botFontColor="@color/colorPrimaryDark"
+        app:sc_botFontSize="14sp"
+        app:sc_botText="Daily Spend Time"
+        app:sc_dashColor="@color/gray_bold"
+        app:sc_dashLength="10dp"
+        app:sc_dashProgressColor="@android:color/black"
+        app:sc_dashSpaceAngle="3"
+        app:sc_dashWidthAngle="1"
+        app:sc_duration="1000"
+        app:sc_endAngle="45"
+        app:sc_marginBot="15dp"
+        app:sc_marginTop="10dp"
+        app:sc_startAngle="-225"
+        app:sc_targetFontColor="@android:color/holo_red_dark"
+        app:sc_targetFontSize="14sp"
+        app:sc_targetText="Target: 100 hours"
+        app:sc_topFontColor="@android:color/black"
+        app:sc_topFontSize="13sp"
+        app:sc_topText="Total Spent Time"
+        app:sc_totalFontColor="@color/colorPrimaryDark"
+        app:sc_totalFontSize="50sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
