@@ -1,6 +1,6 @@
 # Circle Chart
 Custom Circle Chart with your text, max value and progress value
-![DynamicSeekbar](https://raw.githubusercontent.com/minhnn2607/CircleChart/master/screenshot.png)
+
 
 ## Setup
 Add dependency to your __build.gradle__
