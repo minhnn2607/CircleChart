@@ -6,9 +6,7 @@ Custom Circle Chart with your text, max value and progress value
 Add dependency to your __build.gradle__
 
 ```groovy		
-maven {
-    url "https://dl.bintray.com/minhnn2607/maven"
-}
+jcenter()
 ```	
 ```groovy		
 compile 'vn.nms.circle_chart:CircleChart:1.0'
